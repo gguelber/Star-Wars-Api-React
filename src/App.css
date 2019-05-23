@@ -19,6 +19,8 @@ body {
 .name {
 	border: 2px solid black;
 	text-align: center;
+	font-size: 1.6rem;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .info {
