@@ -1,0 +1,51 @@
+body {
+	background-image: url('https://media.wired.com/photos/5a593a7ff11e325008172bc2/master/pass/pulsar-831502910.jpg');
+	background-repeat: no-repeat;
+}
+
+.App {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+
+.main {
+	background-color: lightgray;
+	margin-top: 10%;
+	box-shadow: 10px 5px 10px;
+	border-radius: 10px;
+}
+
+.name {
+	border: 2px solid black;
+	text-align: center;
+}
+
+.info {
+	font-size: 1.6rem;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	border: 2px solid black;
+	width: auto;
+	padding: 28px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+#btn {
+	width: 200px;
+	height: auto;
+	padding: 20px;
+	margin: 20px;
+	color: black;
+	border-radius: 10px;
+	border: 2px solid black;
+	box-shadow: 5px 3px 10px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#btn:hover {
+	background-color: gray;
+}
